@@ -1,14 +1,9 @@
+
 from configparser import ConfigParser
 
-from pathlib import Path
 
-path = Path('../data_files/database.ini')
-
-
-def config(filename=path, section="postgresql"):
-    # create a parser
+def config(filename, section="postgresql"):
     parser = ConfigParser()
-    # read config file
     parser.read(filename)
     db = {}
     if parser.has_section(section):
