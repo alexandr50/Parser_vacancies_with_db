@@ -1,0 +1,94 @@
+{
+  "id": "3529",
+  "premium": false,
+  "billing_type": {
+    "id": "standard",
+    "name": "Стандарт"
+  },
+  "relations": [],
+  "name": "Ассистент/Менеджер по продажам в отдел по работе с гос. сектором",
+  "insider_interview": null,
+  "response_letter_required": true,
+  "area": {
+    "id": "1",
+    "name": "Москва",
+    "url": "https://api.hh.ru/areas/1"
+  },
+  "salary": {
+    "from": null,
+    "to": 500,
+    "currency": "USD",
+    "gross": null
+  },
+  "snippet": {
+    "requirements": "something"
+  },
+  "type": {
+    "id": "open",
+    "name": "Открытая"
+  },
+  "address": null,
+  "allow_messages": true,
+  "experience": {
+    "id": "between1And3",
+    "name": "От 1 года до 3 лет"
+  },
+  "schedule": {
+    "id": "fullDay",
+    "name": "Полный день"
+  },
+  "employment": {
+    "id": "full",
+    "name": "Полная занятость"
+  },
+
+  "department": null,
+  "contacts": null,
+  "description": "Компания Inline Technologies - ведущий сетевой интегратор, золотой партнер Cisco Systems - приглашает на позицию менеджера по продажам в отдел по работе с гос. сектором, мужчину 21-35 лет, высшее техническое или экономическое образование. Опыт работы с государственными организациям, подготовка тендерной документации. Приветствуется опыт продаж любого IT-оборудования. Самостоятельность, обучаемость, клиентоориентированность, активная жизненная позиция. \r<br />\nФункциональные обязанности: Подготовка и ведение тендерной документации, контроль оплаты сделок, контроль отгрузок клиентам. Полноценное обеспечение бэк офиса отдела.\r<br />\nЗарплата $300-400 на испытательный срок, далее $400-500 + бонусы + соцпакет (28 оплачиваемых дня отпуска, оплачиваемая мобильная связь, 4 персональных выходных дня в году).\r<br />\nПросьба отправлять резюме с указанием названия вакансии в теме письма.",
+  "branded_description": null,
+  "vacancy_constructor_template": null,
+  "key_skills": [],
+  "accept_handicapped": false,
+  "accept_kids": false,
+  "archived": true,
+  "response_url": null,
+  "specializations": [],
+  "professional_roles": [
+    {
+      "id": "70",
+      "name": "Менеджер по продажам, менеджер по работе с клиентами"
+    }
+  ],
+  "code": null,
+  "hidden": false,
+  "quick_responses_allowed": false,
+  "driver_license_types": [],
+  "accept_incomplete_resumes": false,
+  "employer": {
+    "id": "898",
+    "name": "INLINE Technologies",
+    "url": "https://api.hh.ru/employers/898",
+    "alternate_url": "https://hh.ru/employer/898",
+    "logo_urls": {
+      "240": "https://hhcdn.ru/employer-logo/1071096.jpeg",
+      "90": "https://hhcdn.ru/employer-logo/1071095.jpeg",
+      "original": "https://hhcdn.ru/employer-logo-original/233284.jpg"
+    },
+    "vacancies_url": "https://api.hh.ru/vacancies?employer_id=898",
+    "trusted": true
+  },
+  "published_at": "2003-09-26T00:00:00+0400",
+  "created_at": "2003-09-26T00:00:00+0400",
+  "initial_created_at": "2003-09-26T00:00:00+0400",
+  "negotiations_url": null,
+  "suitable_resumes_url": null,
+  "apply_alternate_url": "https://hh.ru/applicant/vacancy_response?vacancyId=3529",
+  "has_test": false,
+  "test": null,
+  "alternate_url": "https://hh.ru/vacancy/3529",
+  "working_days": [],
+  "working_time_intervals": [],
+  "working_time_modes": [],
+  "accept_temporary": false,
+  "languages": []
+}

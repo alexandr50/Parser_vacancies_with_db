@@ -17,6 +17,7 @@ def main():
     print('Ожидайте, база данных создается...')
     params = config(PATH_TO_DB_CONFIG)
     db = DBManager('vacancies_db', params)
+
     db.create_database()
     employers = read_file(PATH_TO_EMP_JSON)
     db.insert_to_employers(employers)
@@ -25,7 +26,6 @@ def main():
         head_hunter = HeadHunter(employers[i][0]).get_vacancies()
         db.insert_to_vacancies(head_hunter)
     print('База данных создана')
-
     while True:
         print('Введите цифру согласно меню')
         print(f"""
