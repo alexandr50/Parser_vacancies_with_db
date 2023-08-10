@@ -29,5 +29,9 @@ port=5432(по умолчанию)
 
 В дериктории tests находятся тесты
 
+Технологии и стек
+
+        python, requests, psycopg2-binary, python-dotenv
+
 
  
