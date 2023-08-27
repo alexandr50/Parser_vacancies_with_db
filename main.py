@@ -14,18 +14,19 @@ PATH_TO_EMP_JSON = pathlib.Path(dir_path, 'data_files', 'employers.json')
 def main():
     print('Добро пожаловать в сервис вакансий компаний: Альфа-банк,  Сбер,  Тинькофф,  Ozon,  Газпром,  Почта,  Яндекс,  Metro,  ВТБ,  Северсталь')
     print()
-    print('Ожидайте, база данных создается...')
     params = config(PATH_TO_DB_CONFIG)
     db = DBManager('vacancies_db', params)
+    choice_user_for_db = input('Введите 1 если хотите обновить базу данных или любую клавишу чтобы работатьс существующей: ')
+    if choice_user_for_db == '1':
+        print('Ожидайте, база данных создается...')
+        db.create_database()
+        employers = read_file(PATH_TO_EMP_JSON)
+        db.insert_to_employers(employers)
 
-    db.create_database()
-    employers = read_file(PATH_TO_EMP_JSON)
-    db.insert_to_employers(employers)
-
-    for i in range(len(employers)):
-        head_hunter = HeadHunter(employers[i][0]).get_vacancies()
-        db.insert_to_vacancies(head_hunter)
-    print('База данных создана')
+        for i in range(len(employers)):
+            head_hunter = HeadHunter(employers[i][0]).get_vacancies()
+            db.insert_to_vacancies(head_hunter)
+        print('База данных создана')
     while True:
         print('Введите цифру согласно меню')
         print(f"""
